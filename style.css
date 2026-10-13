@@ -1,0 +1,261 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #949ea7;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    width: 3vh;
+    padding: 20px;
+}
+
+#logo p{
+    font-size: 150%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* INICIO */
+
+#inicio{
+    display: flex;
+    height: 75vh;
+    background-image: url(./imagens/fundo-inicio.png);
+    padding: 5%;
+    align-items: center;
+}
+
+#texto-inicio h1{
+    font-size: 4vw;
+    color: #737c85;
+    font-family: arial system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#texto-inicio p{
+    font-size: 1.6vw;
+    padding-bottom: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: gray;
+}
+
+#texto-inicio a{
+    background-color: gray;
+    font-size: 3vh;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#inicio img{
+    width: 60%;
+}
+
+/* TRABALHOS */
+
+#trabalhos{
+    background-color: #61e2ff;
+    text-align: center;
+    align-items: center;
+    padding: 15vh;
+}
+
+#trabalhos h2{
+    font-size: 7vh;
+    color: white;
+    font-family: arial system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.trabalhos{
+    display: flex;
+}
+
+.trabalhos img{
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10vh;
+    transition: 1s;
+}
+
+.trabalhos a{
+    display: block;
+}
+
+/* QUEM SOU EU */
+
+#sobremim{
+    display: flex;
+    padding: 50px;
+    margin-top: 5vw;
+}
+
+#sobremim img{
+    width: 40%;
+    border-radius: 20px;
+}
+
+#texto-sobremim{
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#texto-sobremim h2{
+    font-size: 7vh;
+    color: #737c85;
+    font-family: arial system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#texto-sobremim p{
+    font-size: 3vh;
+    padding-bottom: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: gray;
+}
+
+nav a:hover{
+    background-color: rgb(89, 135, 161);
+}
+
+.trabalhos img:hover{
+    width: 90%;
+}
+
+#contato{
+    background-image: url(./imagens/fundo-contato.png);
+    background-size: 100%;
+    text-align: right;
+    padding: 10%;
+}
+
+#contato h2{
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#contato a{
+        display: block;
+        font-size: 2vw;
+        padding-top: 20px;
+        color: rgb(69, 103, 131);
+}
+
+footer{
+    background-color: rgb(89, 104, 138);
+    color: white;
+    position: relative;
+    padding: 2vw;
+}
+
+@media screen and (max-width: 884px){
+
+    header{
+        background-color: rgb(87, 116, 128);
+        position: static;
+        text-align: center;
+    }
+
+    #logo p{
+        font-size: 5vw;
+        padding-left: 10px;
+    }
+
+    #logo img{
+        width: 10vw;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #inicio{
+        background-image: url(./imagens/fundo-inicio-celular.png);
+        background-size: 120vw;
+        text-align: center;
+        padding-bottom: 15vw;
+    }
+
+    #inicio img{
+        display: none;
+    }
+
+    #texto-inicio h1{
+        font-size: 10vw;
+    }
+
+    #texto-inicio p{
+        font-size: 6vw;
+        text-align: justify;
+    }
+
+    #trabalhos{
+        padding: 10px;
+        background-color: rgb(133, 197, 248);
+    }
+
+    .trabalhos{
+        display: block;
+        text-align: center;
+        padding-bottom: 10vw;
+    }
+
+    #sobremim{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #texto-sobremim{
+        padding: 10px;
+    }
+
+    #sobremim img{
+        width: 90%;
+    }
+
+    #contato{
+        text-align: center;
+        background-size: 200%;
+    }
+
+    #contato h2{
+        font-size: 10vw;
+    }
+
+    #contato a{
+        font-size: 5vw;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
