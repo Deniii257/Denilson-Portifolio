@@ -184,13 +184,19 @@ footer{
         text-align: center;
     }
 
+    #logo{
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+
     #logo p{
         font-size: 5vw;
         padding-left: 10px;
     }
 
     #logo img{
-        width: 10vw;
+        width: 8vw;
     }
 
     nav{
