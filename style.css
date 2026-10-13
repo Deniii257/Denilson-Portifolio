@@ -45,7 +45,7 @@ nav a{
 #inicio{
     display: flex;
     height: 75vh;
-    background-image: url(./imagens/fundo-inicio.png);
+    background-image: url(fundo-inicio.png);
     padding: 5%;
     align-items: center;
 }
@@ -150,7 +150,7 @@ nav a:hover{
 }
 
 #contato{
-    background-image: url(./imagens/fundo-contato.png);
+    background-image: url(fundo-contato.png);
     background-size: 100%;
     text-align: right;
     padding: 10%;
@@ -198,7 +198,7 @@ footer{
     }
 
     #inicio{
-        background-image: url(./imagens/fundo-inicio-celular.png);
+        background-image: url(fundo-inicio-celular.png);
         background-size: 120vw;
         text-align: center;
         padding-bottom: 15vw;
